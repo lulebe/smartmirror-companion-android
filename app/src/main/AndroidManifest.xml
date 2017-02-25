@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.lulebe.smartmirror">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".OverviewActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IntroActivity"
+            android:theme="@style/Theme.Intro" />
+        <activity
+            android:name=".ApikeysActivity"
+            android:theme="@style/Theme.Intro" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".OverviewActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ModuleActivity"
+            android:label="@string/title_activity_module"
+            android:parentActivityName=".OverviewActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".AddModuleActivity"
+            android:label="@string/title_activity_add_module"
+            android:parentActivityName=".OverviewActivity"
+            android:theme="@style/AppTheme"
+            />
+    </application>
+
+</manifest>

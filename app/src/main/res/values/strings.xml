@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Smartmirror</string>
+    <string name="searching">searching your Mirror</string>
+    <string name="searching_long">Search takes longer than expected.\nIs your mirror connected to the same Wi-Fi as this device?</string>
+    <string name="found_loading_settings">Found Mirror. Loading Settings.</string>
+    <string name="settings">Settings</string>
+    <string name="active_modules">active Modules</string>
+    <string name="title_activity_settings">Mirror Settings</string>
+    <string name="title_activity_module">Module Settings</string>
+    <string name="title_activity_add_module">Add Module</string>
+</resources>

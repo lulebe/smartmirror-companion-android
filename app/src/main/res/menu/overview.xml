@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/screenon"
+        app:showAsAction="always"
+        android:title="screen on"
+        android:icon="@drawable/ic_lightbulb_on_white_24dp" />
+    <item
+        android:id="@+id/reboot"
+        app:showAsAction="never"
+        android:title="reboot"
+        android:icon="@drawable/ic_power_settings_new_white_24dp" />
+    <item
+        android:id="@+id/manual"
+        app:showAsAction="never"
+        android:title="enter ip" />
+</menu>
